@@ -257,28 +257,28 @@
                   th(colspan=2) Sitio web
                 tr
                   td.text-center Carter Goodrich
-                  td.text-center www.cartergoodrich.com
+                  td.text-center(colspan=2) www.cartergoodrich.com
                 tr
                   td.text-center Brett Bean
-                  td.text-center www.brettbean.com
+                  td.text-center(colspan=2) www.brettbean.com
                 tr
                   td.text-center Anette Marnat
-                  td.text-center www.annettemarnat.ultra-book.com/portfolio
+                  td.text-center(colspan=2) www.annettemarnat.ultra-book.com/portfolio
                 tr
                   td.text-center Frank Frazetta
-                  td.text-center www.frazettamuseum.com
+                  td.text-center(colspan=2) www.frazettamuseum.com
                 tr
                   td.text-center Creature Box
-                  td.text-center www.creaturebox.com
+                  td.text-center(colspan=2) www.creaturebox.com
                 tr
                   td.text-center Syd Mead
-                  td.text-center www.sydmead.com
+                  td.text-center(colspan=2) www.sydmead.com
                 tr
                   td.text-center Phil Saunders
-                  td.text-center www.artstation.com/philsaunders
+                  td.text-center(colspan=2) www.artstation.com/philsaunders
                 tr
                   td.text-center Shane Glines
-                  td.text-center www.instagram.com/shaneglines                
+                  td.text-center(colspan=2) www.instagram.com/shaneglines                
           .col-lg-2
 
       .py-3.py-md-4(titulo="Anatomía básica")
