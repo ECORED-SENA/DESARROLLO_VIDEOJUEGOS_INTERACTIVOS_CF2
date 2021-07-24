@@ -24,8 +24,8 @@
       .col-lg-1
       .col-lg-10
         figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+          .video          
+            iframe(width="1280" height="722" src="https://www.youtube.com/embed/gzBXxQToqEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
       .col-lg-1
 
     p.mb-5 Para el modelado 3D en cada software, lo primero que se tiene que entender es la escena, la cual es el espacio en que se va a contener y a ordenar todos los elementos tridimensionales. Para ello, el sistema de coordenadas se hace indispensable para poder navegar en la escena, los cuales como se menciona antes, van a proporcionar información de la dirección en que se navegará teniendo en cuenta lo siguiente:
@@ -210,15 +210,15 @@
       .col-lg-3
       .col-lg-6
         .cajon.color-acento-contenido.p-5
-          Para empezar a modelar, partimos de sacar las vistas 2D y llevarlas al programa 3D, veamos el video de cómo hacerlo. A continuación veremos cómo se crea el personaje Flynn en los siguientes videos.
+          p Para empezar a modelar, partimos de sacar las vistas 2D y llevarlas al programa 3D, veamos el video de cómo hacerlo. A continuación veremos cómo se crea el personaje Flynn en los siguientes videos.
       .col-lg-3
 
     .row.mb-5
       .col-lg-1
       .col-lg-10
         figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+          .video          
+            iframe(width="1280" height="722" src="https://www.youtube.com/embed/966QR6R6jQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
       .col-lg-1
 
     #t_4_2.titulo-segundo    
@@ -257,8 +257,8 @@
       .col-lg-1
       .col-lg-10
         figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+          .video               
+            iframe(width="1280" height="722" src="https://www.youtube.com/embed/gzBXxQToqEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
       .col-lg-1
     
 </template>
