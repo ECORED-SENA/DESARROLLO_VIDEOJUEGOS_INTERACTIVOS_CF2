@@ -52,6 +52,17 @@
     .row.mb-5
       .col-lg-2
       .col-lg-8
+        LineaTiempoD.color-secundario
+          .row(numero="1" titulo="Mapa diffuse")
+          .row(numero="2" titulo="Mapa desplazamiento")
+          .row(numero="3" titulo="Mapa specular")
+            .col-lg-3
+              figure
+                img(src='@/assets/curso/tema5/img03.png', alt='Texto que describa la imagen') 
+            .col-lg-9.d-flex.align-items-center
+              p La textura que define el brillo se utiliza en escala de grises, entre más claro más brillo, y más oscuro, menos brillo.
+          .row(numero="4" titulo="Mapa normal")
+          .row(numero="5" titulo="Mapa bump")
       .col-lg-2
 </template>
 
