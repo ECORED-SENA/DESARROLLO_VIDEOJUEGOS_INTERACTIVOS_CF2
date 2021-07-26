@@ -1,2 +1,1 @@
-module.exports =
-  'Arte conceptual y diseño 3D'
+module.exports = 'Arte conceptual y diseño 3D'

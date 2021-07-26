@@ -56,31 +56,31 @@
           .row(numero="1" titulo="Mapa diffuse")
             .col-lg-3
               figure
-                img(src='@/assets/curso/tema5/img03.png', alt='Texto que describa la imagen') 
+                img(src='@/assets/curso/tema5/img03.jpg', alt='Texto que describa la imagen') 
             .col-lg-9.d-flex.align-items-center
               p Es la textura primaria, el color sobre los elementos 3D.
           .row(numero="2" titulo="Mapa desplazamiento")
             .col-lg-3
               figure
-                img(src='@/assets/curso/tema5/img03.png', alt='Texto que describa la imagen') 
+                img(src='@/assets/curso/tema5/img04.jpg', alt='Texto que describa la imagen') 
             .col-lg-9.d-flex.align-items-center
               p Brinda detalles al modelado, en este caso, desplazando y afectando los vértices del modelo.
           .row(numero="3" titulo="Mapa specular")
             .col-lg-3
               figure
-                img(src='@/assets/curso/tema5/img03.png', alt='Texto que describa la imagen') 
+                img(src='@/assets/curso/tema5/img05.jpg', alt='Texto que describa la imagen') 
             .col-lg-9.d-flex.align-items-center
               p La textura que define el brillo se utiliza en escala de grises, entre más claro más brillo, y más oscuro, menos brillo.
           .row(numero="4" titulo="Mapa normal")
             .col-lg-3
               figure
-                img(src='@/assets/curso/tema5/img03.png', alt='Texto que describa la imagen') 
+                img(src='@/assets/curso/tema5/img06.jpg', alt='Texto que describa la imagen') 
             .col-lg-9.d-flex.align-items-center
               p Al generar relieves en los 3 ejes brinda detalles al modelado, sin desplazar vértices.
           .row(numero="5" titulo="Mapa bump")
             .col-lg-3
               figure
-                img(src='@/assets/curso/tema5/img03.png', alt='Texto que describa la imagen') 
+                img(src='@/assets/curso/tema5/img07.jpg', alt='Texto que describa la imagen') 
             .col-lg-9.d-flex.align-items-center
               p Antecesora a la textura normal map, pero aun en uso, mediante escala de grises da la sensación de relieve, donde lo más blanco está más hacia adelante y lo más negro a profundidad.
 

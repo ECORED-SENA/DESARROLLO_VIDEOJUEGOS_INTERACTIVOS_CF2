@@ -380,6 +380,10 @@ export default {
         titulo: 'Escenas del videojuego Ori and The Blind Forest (2015)',
         imagen: require('@/assets/curso/tema3/img07.png'),
       },
+      {
+        titulo: 'Escenas del videojuego Ori and The Blind Forest (2015)',
+        imagen: require('@/assets/curso/tema3/img34.jpg'),
+      },
     ],
   }),
   mounted() {
