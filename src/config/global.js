@@ -103,123 +103,6 @@ export default {
         desarrolloContenidos: true,
         subMenu: [],
       },
-      {
-        nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
-        numero: '8',
-        titulo: 'Componentes',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
-      },
     ],
     subMenu: [
       {
@@ -258,134 +141,120 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.  ',
+      link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender',
+    },
+    {
+      referencia:
+        'Blendtuts-ES. (2019). HDRIs y materiales PBR (introducción a Blender 2.80 #35) [video]. YouTube.  ',
+      link: 'https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452',
+    },
+    {
+      referencia:
+        'Blendtuts-ES. (2019). Shading básico (materiales) (introducción a Blender 2.80 #31) [video]. YouTube.  ',
+      link: 'https://www.youtube.com/watch?v=_HlV4DUjnDY',
+    },
+    {
+      referencia: 'Paletton. (2021). The color scheme designer. ',
+      link: 'https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF',
+    },
+    {
+      referencia:
+        'Powerhouse Animation Studios. (2017). PHA ProTip - Character design [video]. YouTube.  ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: 'SENA. (2021). Modelado prop daga. SENA.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: '¾',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es la vista en la que se observa un elemento, por ejemplo, un rostro visto de frente girando hacia su derecha o izquierda, por lo que se alcanza a notar más parte de un lado que del otro.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Dinámico',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Se refiere a la fluidez que tiene un elemento, siendo todo lo contrario de rigidez, por ello, evoca movilidad. ',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Disonancia',
+      significado: 'Diferencia entre dos elementos, totalmente opuestos.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Emociones',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Sentimientos que las personas poseen, como la rabia, alegría, tristeza, entre otras.',
     },
     {
-      termino: 'Moda',
+      termino: 'Estética',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es la forma como se visualizan las cosas, pueden ser bellas o por el contrario, horrorosas.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Estructura',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es la base de los elementos, la columna vertebral que le da forma desde lo interno a lo externo.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Limitantes',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Carecen de las condiciones para que funcione con cualquier elemento.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Loops',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Se refiere a las repeticiones que se pueden dar de un mismo elemento animado, por ejemplo, un hámster corriendo en una jaula.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Modelador',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la persona que realiza en un software 3D modelos tridimensionales.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Percepción subjetiva',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la forma como cada sujeto entiende cualquier tipo de información, sea visual, auditiva o táctil, dándole un significado propio.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Paletton. (2021). The color scheme designer. https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF ',
+      tipo: 'Página web',
+      link: 'https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Powerhouse Animation Studios. (2017). PHA ProTip - Character design [video]. YouTube. https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios ',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Blendtuts-ES. (2019). Shading básico (materiales) (introducción a Blender 2.80 #31) [video]. YouTube.  https://www.youtube.com/watch?v=_HlV4DUjnDY ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=_HlV4DUjnDY',
+    },
+    {
+      texto:
+        'Blendtuts-ES. (2019). HDRIs y materiales PBR (introducción a Blender 2.80 #35) [video]. YouTube.   https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452 ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452s ',
+    },
+    {
+      texto:
+        'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.     https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender ',
+    },
+    {
+      texto: 'SENA. (2021). Modelado prop daga. SENA.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo1_Modelado_Prop_Daga.pdf',
     },
   ],
   creditos: {

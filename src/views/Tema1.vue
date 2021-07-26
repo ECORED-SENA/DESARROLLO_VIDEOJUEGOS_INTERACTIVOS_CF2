@@ -85,10 +85,17 @@
 
     p.mb-4 Las figuras evocan emociones que se asocian de forma intrínseca con las vivencias de las personas, por ejemplo, un elemento redondo como un oso, va a evidenciar ternura; a diferencia de un demonio, que va a tener elementos afilados y puede transmitir terror. Es así, que de forma general a las figuras se les asocia emociones, pero estas también pueden variar de acuerdo con las formas que se empleen. 
     p De la siguiente manera se asocia las formas básicas a las emociones:
+                      
+        figure
+          img(src='@/assets/curso/tema1/img08.svg', alt='Texto que describa la imagen')           
 
-    figure.mb-5
-      img(src='@/assets/curso/tema1/img08.svg') 
+     
 
+             
+ 
+ 
+ 
+  
     p.mb-4 Estos temas emocionales se pueden multiplicar al generar combinaciones de los elementos básicos, lo que permite al equipo completo de videojuegos tomar decisiones durante la conceptualización de las ideas. En sí, se pueden observar elementos creados con figuras básicas, como el círculo, el cuadrado y el triángulo, dándole a cada personaje una identidad particular y reflejando una emoción de manera particular. 
     p.mb-5 En el siguiente ejemplo se dará a conocer qué emociones reflejan las figuras al dar clic sobre cada una de ellas:
 

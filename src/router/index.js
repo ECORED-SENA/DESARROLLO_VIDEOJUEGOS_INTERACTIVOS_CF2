@@ -56,12 +56,6 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema3" */ '../views/Tema5.vue'),
         },
-        {
-          path: 'tema8',
-          name: 'tema8',
-          component: () =>
-            import(/* webpackChunkName: "tema3" */ '../views/Tema8.vue'),
-        },
       ],
     },
     {
