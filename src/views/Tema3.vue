@@ -189,44 +189,44 @@
             p Profundidad o experiencia          
 
           div(x="57%" y="20.7272%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #F4E703") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #F4E703") Amarillo
+            p Actitud positiva y alegría 
 
           div(x="57%" y="27.0909%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #E42622") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #E42622") Rojo
+            p Pasión o excitación 
 
           div(x="57%" y="33.4545%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #EB007F") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #EB007F") Rosa
+            p Feminidad 
 
           div(x="57%" y="39.8181%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #C5C5C5") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #C5C5C5") Plata
+            p Intelectualidad 
 
           div(x="57%" y="46.1818%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #029BDD") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #029BDD") Azul
+            p Tristeza o depresión 
 
           div(x="57%" y="52.5454%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #43B035") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #43B035") Verde
+            p Renovación o vida. 
 
           div(x="57%" y="58.9090%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #7D2283") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #7D2283") Violeta
+            p Espiritualidad 
 
           div(x="57%" y="65.2727%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #747476") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #747476") Gris
+            p Neutralidad y serenidad 
 
           div(x="57%" y="71.6363%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #FFFFFF") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #FFFFFF") Blanco
+            p Pureza 
 
           div(x="57%" y="78%")
-            h4.mb-0.BorTit2(style="border-left: 5px solid #010101") Dorado
-            p Opulencia 
+            h4.mb-0.BorTit2(style="border-left: 5px solid #010101") Negro
+            p Elegancia 
       .col-lg-3
 
     figure.mb-5
@@ -318,7 +318,7 @@
             .row
               .col-lg-2
               .col-lg-8
-                a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="https://color.adobe.com/es/create/color-wheel" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto

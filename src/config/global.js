@@ -34,7 +34,7 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.3',
+            numero: '1.2',
             titulo: 'Identidad en los personajes',
             hash: 't_1_2',
           },
@@ -105,12 +105,6 @@ export default {
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -250,11 +244,6 @@ export default {
         'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.     https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender ',
-    },
-    {
-      texto: 'SENA. (2021). Modelado prop daga. SENA.',
-      tipo: 'PDF',
-      descarga: '/downloads/Anexo1_Modelado_Prop_Daga.pdf',
     },
   ],
   creditos: {

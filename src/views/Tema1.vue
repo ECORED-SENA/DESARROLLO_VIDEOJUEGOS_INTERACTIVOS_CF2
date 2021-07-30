@@ -56,7 +56,8 @@
               img(src='@/assets/curso/tema1/img06.svg') 
           .col-lg-6
             h4 Carros
-            p Se puede observar cómo con objetos básicos se pueden diseñar elementos figurativos que representan objetos cotidianos, como una casa, un árbol, un oso. Estos apenas son unos ejemplos básicos, pero  a partir de elementos tan sencillos se pueden realizar incluso obras de arte, como las realizadas por Picasso.
+            p Se puede observar que con cuadrados, triángulos y círculos se puede armar un carro como si fuera un rompecabezas, posterior a ello se eliminan las líneas internas, integrando las formas básicas, lo que genera una figura de un carro, o también  un árbol complejo puede comenzar como una combinación de esferas y cilindros simples
+
           .col-lg-1
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Cabeza")
         .row.py-4
@@ -102,10 +103,19 @@
     .row
       .col-lg-1
       .col-lg-5.d-flex
-        div.p-5.d-flex.align-items-center(style="background-color:#D8F3F9")
+        div.p-5.d-flex.flex-column(style="background-color:#D8F3F9")
+          .row
+            .col-lg-2(style="border-bottom: 5px solid #8979F3")
+
+          br              
+
           p Hay elementos creados con figuras básicas, como el círculo, el cuadrado y el triángulo, dándole a cada personaje  una identidad particular, los que reflejan una emoción particular. En este sentido, las emociones que despiertan estos 3 elementos permiten que se transmitan mensajes puntuales a partir de sus formas.
       .col-lg-5.d-flex
-        div.p-5.d-flex.align-items-center(style="background-color:#E1DDFC")
+        div.p-5.d-flex.flex-column(style="background-color:#E1DDFC")
+          .row
+            .col-lg-2(style="border-bottom: 5px solid #05DBF3")
+
+          br   
           p El uso principal del cuadrado se encuentra deformado y adaptado a cada una de las partes que conforman la estructura general del cuerpo. Este personaje Flynn,  demuestra una sensación de seriedad y fortaleza mental.
       .col-lg-1
 
@@ -120,7 +130,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Emociones")   
         .col-lg-1
-        .col-lg-10.ps-0
+        .col-lg-10.px-4
           .row
             .col-lg-6.d-flex.py-5
               div.px-4(style="background-color:#DDDCE9")
@@ -138,12 +148,12 @@
         
       .row(titulo="Tamaño")
         .col-lg-1
-        .col-lg-10.ps-0
+        .col-lg-10
           .row
             .col-lg-4             
               figure
                 img(src='@/assets/curso/tema1/img12.svg')                  
-            .col-lg-8
+            .col-lg-8.px-4
               p El tamaño de los objetos es un elemento fundamental durante el proceso de diseño, tanto de personajes como del escenario. <br>Se puede observar cómo en la parte superior los personajes y los objetos son de tamaños similares, lo que no permite una jerarquización de los objetos compuestos. 
               p En la parte inferior se observa que con los mismos objetos diseñados se pueden organizar de mejor forma los objetos, generando una composición agradable visualmente.         
         .col-lg-1  
@@ -154,36 +164,36 @@
             .col-lg-4             
               figure
                 img(src='@/assets/curso/tema1/img13.svg')                  
-            .col-lg-8
+            .col-lg-8.px-4
               p Las imágenes que se trabajan en conjunto, su unión fortalece una idea, una historia, en la que se encuentran narrativas visuales, por ello es importante mantener un equilibrio visual.
               p Los elementos en la imagen superior están sobrecargados hacia la derecha, por ello, la mirada es más atraída hacia ese punto. 
               p En la imagen inferior, los objetos están mejor distribuidos, como en una balanza, lo que hace que visualmente sean más agradables. 
         .col-lg-1  
       .row(titulo="Diseño de grupo")
         .col-lg-1
-        .col-lg-5.ps-0
+        .col-lg-5
           figure
             img(src='@/assets/curso/tema1/img09.png') 
-        .col-lg-5
+        .col-lg-5.px-4
           p Al igual que los personajes individuales, los grandes grupos suelen diseñarse de manera similar, compartiendo cualidades estéticas para conservar el mismo estilo. Esto se hace especialmente en los juegos de estrategia como por ejemplo, en el juego Lords Mobile, donde se le permite al jugador adaptar su ejército consistente con personajes homogéneos, es decir, de la misma clase o tipo, en formaciones circulares enfocadas principalmente a la defensa desde todos los flancos; cuadrada que se presenta como una formación densa y rígida; y formaciones tipo flecha o cuña más agresivas, orientadas a romper las líneas del frente enemigo.
         .col-lg-1
       .row(titulo="Conceptos de siluetas sencillas para personajes intrincados")
         .col-lg-1
-        .col-lg-10.ps-0
+        .col-lg-10
           p Los conceptos de forma también son particularmente esenciales en la creación de bocetos, que junto a los elementos de tamaño, forma y vestuario bien diseñados pueden formar una silueta bien definida que transmita a simple vista la esencia o personalidad que va a tener un personaje.
         .col-lg-1  
       .row(titulo="Formas del entorno")
         .col-lg-1
-        .col-lg-10.ps-0
+        .col-lg-10.px-4
           p Otro aspecto fundamental para la composición visual de un videojuego es el entorno, puesto que ocupa gran parte de la escena en donde se ejecutarán las acciones del personaje principal, mostrando también personajes secundarios que pueden ser hostiles, amistosos o neutrales; objetos ya sea que obstaculicen o contribuyan con el avance del jugador, y diferentes decoraciones como árboles, rocas, casas, nubes, animales, entre otros, que sirven para hacer más o menos llamativo el escenario, de acuerdo con el contexto en el que se desarrolle.
         .col-lg-1  
       .row(titulo="Armonía y disonancia")
         .col-lg-1
-        .col-lg-10.ps-0
+        .col-lg-10.px-4
           figure.pe-5.mb-4
             img(src='@/assets/curso/tema1/img14.png') 
           p Dada la intrínseca relación existente entre los personajes y el entorno donde se desenvuelven es necesario analizar dos elementos claves y determinantes en la composición visual de un videojuego: la armonía y la disonancia.
-          p Dos tipos de personajes en entornos diferentes, un personaje y un entorno ligados a la misma forma, ya sea circular, cuadrada o triangular crearán una sensación de armonía para el jugador. Esto es debido a que en ambos entornos se mantiene el mismo estilo, por ejemplo, un personaje redondo en un sitio lleno de nubes y paisajes redondos estaría en un espacio armonioso. Por otra parte, si los personajes están ligados a una forma diferente de la de su entorno se produce una sensación de disonancia, debido a los diferentes temas emocionales de cada forma, es decir, un personaje de tipo triangular ligado a la agresión o poder,  no encajaría muy bien en un mundo con elementos suaves, alegres, optimistas o viceversa, un personaje de tipo circular ligado a temas positivos no se “sentiría cómodo” en un ambiente o entorno hostil y amenazante ligado al triángulo. 
+          p Dos tipos de personajes en entornos diferentes, un personaje y un entorno ligados a la misma forma, ya sea circular, cuadrada o triangular crearán una sensación de <b>armonía</b> para el jugador. Esto es debido a que en ambos entornos se mantiene el mismo estilo, por ejemplo, un personaje redondo en un sitio lleno de nubes y paisajes redondos estaría en un espacio armonioso. Por otra parte, si los personajes están ligados a una forma diferente de la de su entorno se produce una sensación de <b>disonancia</b>, debido a los diferentes temas emocionales de cada forma, es decir, un personaje de tipo triangular ligado a la agresión o poder,  no encajaría muy bien en un mundo con elementos suaves, alegres, optimistas o viceversa, un personaje de tipo circular ligado a temas positivos no se “sentiría cómodo” en un ambiente o entorno hostil y amenazante ligado al triángulo. 
         .col-lg-1 
 
     #t_1_3.titulo-segundo
@@ -241,13 +251,13 @@
         .row.mb-5
           .col-lg-3
           .col-lg-3
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://www.pureref.com/" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p <b>Enlace web.</b> PureRef 
           .col-lg-3
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=Be_r_c1zt8w" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -264,28 +274,28 @@
                   th(colspan=2) Sitio web
                 tr
                   td.text-center Carter Goodrich
-                  td.text-center(colspan=2) www.cartergoodrich.com
+                  td.text-center(colspan=2 nowrap) www.cartergoodrich.com
                 tr
                   td.text-center Brett Bean
-                  td.text-center(colspan=2) www.brettbean.com
+                  td.text-center(colspan=2 nowrap) www.brettbean.com
                 tr
                   td.text-center Anette Marnat
-                  td.text-center(colspan=2) www.annettemarnat.ultra-book.com/portfolio
+                  td.text-center(colspan=2 nowrap) www.annettemarnat.ultra-book.com/portfolio
                 tr
                   td.text-center Frank Frazetta
-                  td.text-center(colspan=2) www.frazettamuseum.com
+                  td.text-center(colspan=2 nowrap) www.frazettamuseum.com
                 tr
                   td.text-center Creature Box
-                  td.text-center(colspan=2) www.creaturebox.com
+                  td.text-center(colspan=2 nowrap) www.creaturebox.com
                 tr
                   td.text-center Syd Mead
-                  td.text-center(colspan=2) www.sydmead.com
+                  td.text-center(colspan=2 nowrap) www.sydmead.com
                 tr
                   td.text-center Phil Saunders
-                  td.text-center(colspan=2) www.artstation.com/philsaunders
+                  td.text-center(colspan=2 nowrap) www.artstation.com/philsaunders
                 tr
                   td.text-center Shane Glines
-                  td.text-center(colspan=2) www.instagram.com/shaneglines                
+                  td.text-center(colspan=2 nowrap) www.instagram.com/shaneglines                
           .col-lg-2
 
       .py-3.py-md-4(titulo="Anatomía básica")
@@ -339,8 +349,7 @@
                     img(src='@/assets/curso/tema1/img25.png')  
                 h3 Neutro
                 p Son los personajes que pululan el mundo sin afectar al personaje de manera buena o mala. 
-
-          p Con el diseño de Kirby y Dark Mind se observa que las emociones relacionadas a cada espectro de forma son de gran utilidad a la hora de diseñar y perfilar las características de un personaje, ya sean positivas, negativas o incluso neutras, brindándole una identidad única que lo diferencia de los demás, marcando el concepto visual de un objeto que puede aplicarse a todos los elementos del videojuego para conservar un mismo estilo.       
+          
         .col-lg-1  
 
     h2 Limitantes
@@ -467,8 +476,9 @@ export default {
       {
         titulo: 'Estructura del cuerpo humano',
         texto:
-          'La estructura del cuerpo humano se puede diseñar con 8 o 8.5 cabezas, que se usan principalmente en los dibujos o cuerpos de personajes, principalmente de superhéroes, que permiten tener una altura imponente. De igual manera, están las cabezas de 7 o  7.5, estas generalmente se usan en cuerpo de estatura promedio y las 4 cabezas se usan en los cartoon animados, son cuerpos más bajos, pero si se desea se puede usar las que se necesiten para el personaje.',
+          'La estructura del cuerpo humano se puede diseñar con 8 o 8.5 cabezas, que se usan principalmente en los dibujos o cuerpos de personajes, principalmente de superhéroes, que permiten tener una altura imponente. De igual manera, están las cabezas de 7 o  7.5, estas generalmente se usan en cuerpo de estatura promedio y las 4 cabezas se usan en los <i>cartoon</i> animados, son cuerpos más bajos, pero si se desea se puede usar las que se necesiten para el personaje.',
         imagen: require('@/assets/curso/tema1/img16.png'),
+        leyendaImagen: 'Ahriman 8 cabezas',
       },
       {
         titulo: 'Estructura alámbrica',

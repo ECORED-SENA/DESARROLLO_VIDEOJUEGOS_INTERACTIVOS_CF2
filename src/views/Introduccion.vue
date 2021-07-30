@@ -18,7 +18,7 @@
 
     .bloque-texto-b.color-acento-contenido.p-4
       .bloque-texto-b__texto        
-        p.mb-0 Los principios básicos del diseño permiten bosquejar y diseñar los personajes, escenarios y props, que harán parte de un videojuego, para el cual se hará uso de la anatomía básica, comprendiendo la composición de los elementos de un personaje y su gestualidad. A su vez, se abordará cómo estos personajes pueden prepararse para su realización en 3D, con el diseño de un blueprint. Esto permitirá, integrarse en el software Blender versión 2.9, del cual se explicará su interfaz gráfica, además de las técnicas de modelado. Asimismo, el componente relacionará conceptos de color y texturas, materiales, texturizado y creación de uv, para elementos 3D.          
+        p.mb-0 Los principios básicos del diseño permiten bosquejar y diseñar los personajes, escenarios y <i>props</i>, que harán parte de un videojuego, para el cual se hará uso de la anatomía básica, comprendiendo la composición de los elementos de un personaje y su gestualidad. A su vez, se abordará cómo estos personajes pueden prepararse para su realización en 3D, con el diseño de un <i>blueprint</i>. Esto permitirá, integrarse en el <i>software</i> Blender versión 2.9, del cual se explicará su interfaz gráfica, además de las técnicas de modelado. Asimismo, el componente relacionará conceptos de color y texturas, materiales, texturizado y creación de uv, para elementos 3D.          
     
 
 </template>
