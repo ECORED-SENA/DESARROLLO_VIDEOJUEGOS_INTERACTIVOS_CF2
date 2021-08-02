@@ -88,7 +88,7 @@
     p De la siguiente manera se asocia las formas básicas a las emociones:
                       
         figure
-          img(src='@/assets/curso/tema1/img08.svg', alt='Texto que describa la imagen')           
+          img(src='@/assets/curso/tema1/img08.png', alt='Texto que describa la imagen')           
 
      
 
@@ -102,21 +102,32 @@
 
     .row
       .col-lg-1
-      .col-lg-5.d-flex
-        div.p-5.d-flex.flex-column(style="background-color:#D8F3F9")
-          .row
-            .col-lg-2(style="border-bottom: 5px solid #8979F3")
+      .col-lg-5.d-flex.flip-card.indicador__containe
+        div.indicador--click
+        div.flip-card-inner
+          div.p-5.d-flex.flex-column.flip-card-front(style="background-color:#D8F3F9")
+            .row
+              .col-lg-2(style="border-bottom: 5px solid #8979F3")
 
-          br              
+            br              
 
-          p Hay elementos creados con figuras básicas, como el círculo, el cuadrado y el triángulo, dándole a cada personaje  una identidad particular, los que reflejan una emoción particular. En este sentido, las emociones que despiertan estos 3 elementos permiten que se transmitan mensajes puntuales a partir de sus formas.
-      .col-lg-5.d-flex
-        div.p-5.d-flex.flex-column(style="background-color:#E1DDFC")
-          .row
-            .col-lg-2(style="border-bottom: 5px solid #05DBF3")
+            p Hay elementos creados con figuras básicas, como el círculo, el cuadrado y el triángulo, dándole a cada personaje  una identidad particular, los que reflejan una emoción particular. En este sentido, las emociones que despiertan estos 3 elementos permiten que se transmitan mensajes puntuales a partir de sus formas.
 
-          br   
-          p El uso principal del cuadrado se encuentra deformado y adaptado a cada una de las partes que conforman la estructura general del cuerpo. Este personaje Flynn,  demuestra una sensación de seriedad y fortaleza mental.
+          div.flip-card-back
+            figure
+              img(src='@/assets/curso/tema1/img37.png')
+      .col-lg-5.d-flex.flip-card.indicador__containe
+        div.flip-card-inner
+          div.p-5.d-flex.flex-column.flip-card-front(style="background-color:#E1DDFC")
+            .row
+              .col-lg-2(style="border-bottom: 5px solid #05DBF3")
+
+            br   
+            p El uso principal del cuadrado se encuentra deformado y adaptado a cada una de las partes que conforman la estructura general del cuerpo. Este personaje Flynn,  demuestra una sensación de seriedad y fortaleza mental.
+          
+          div.flip-card-back
+            figure
+              img(src='@/assets/curso/tema1/img38.png')
       .col-lg-1
 
     Separador
@@ -274,28 +285,36 @@
                   th(colspan=2) Sitio web
                 tr
                   td.text-center Carter Goodrich
-                  td.text-center(colspan=2 nowrap) www.cartergoodrich.com
+                  td.text-center(colspan=2 nowrap) 
+                    a(href="http://www.cartergoodrich.com" target="_blank") <u>www.cartergoodrich.com</u>
                 tr
                   td.text-center Brett Bean
-                  td.text-center(colspan=2 nowrap) www.brettbean.com
+                  td.text-center(colspan=2 nowrap)
+                    a(href="http://www.brettbean.com" target="_blank") <u>www.brettbean.com</u>
                 tr
                   td.text-center Anette Marnat
-                  td.text-center(colspan=2 nowrap) www.annettemarnat.ultra-book.com/portfolio
+                  td.text-center(colspan=2 nowrap) 
+                    a(href="http://www.annettemarnat.ultra-book.com/portfolio" target="_blank") <u>www.annettemarnat.ultra-book.com/portfolio</u>
                 tr
                   td.text-center Frank Frazetta
-                  td.text-center(colspan=2 nowrap) www.frazettamuseum.com
+                  td.text-center(colspan=2 nowrap) 
+                    a(href="http://www.frazettamuseum.com" target="_blank") <u>www.frazettamuseum.com</u>
                 tr
                   td.text-center Creature Box
-                  td.text-center(colspan=2 nowrap) www.creaturebox.com
+                  td.text-center(colspan=2 nowrap)
+                    a(href="http://www.creaturebox.com" target="_blank") <u>www.creaturebox.com</u>
                 tr
                   td.text-center Syd Mead
-                  td.text-center(colspan=2 nowrap) www.sydmead.com
+                  td.text-center(colspan=2 nowrap) 
+                    a(href="http://www.sydmead.com" target="_blank") <u>www.sydmead.com</u>
                 tr
                   td.text-center Phil Saunders
-                  td.text-center(colspan=2 nowrap) www.artstation.com/philsaunders
+                  td.text-center(colspan=2 nowrap) 
+                    a(href="http://www.artstation.com/philsaunders" target="_blank") <u>www.artstation.com/philsaunders</u>
                 tr
                   td.text-center Shane Glines
-                  td.text-center(colspan=2 nowrap) www.instagram.com/shaneglines                
+                  td.text-center(colspan=2 nowrap) 
+                    a(href="http://www.instagram.com/shaneglines" target="_blank") <u>www.instagram.com/shaneglines</u>            
           .col-lg-2
 
       .py-3.py-md-4(titulo="Anatomía básica")

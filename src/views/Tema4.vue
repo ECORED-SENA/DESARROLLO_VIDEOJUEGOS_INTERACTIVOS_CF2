@@ -53,7 +53,7 @@
 
     p.mb-5 A continuación, se podrá conocer sobre los conceptos de 3D y modelado a partir ejemplos del sistema de coordenadas en los ejes.
 
-    .row.mb-5
+    .row.mb-4
       .col-lg-1
       .col-lg-10
         .row.mb-5.py-5(style="background-color:#F9F9F9") 
@@ -71,6 +71,14 @@
             p.mb-4Son las superficies resultantes de la unión de como mínimo 3 vértices y aristas, se podrían denominar en los que se componen de 3 puntos, que son polígonos de forma triangular, que se usan en videojuegos, para hacer referencia a los polígonos de 4 puntos, usados en animación 3D, y los de 5 o más puntos llamados n-gon.
           .col-lg-1
       .col-lg-1
+
+    figure.mb-3
+      img(src='@/assets/curso/tema4/img34.svg', alt='Texto que describa la imagen')
+
+    .row.mb-5
+      .col-lg-1
+      .col-lg-10 
+        p.ps-0 Representación de elementos de modelado 3D.
 
     TabsA.color-acento-contenido  
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Personajes")   

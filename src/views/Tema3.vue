@@ -178,7 +178,16 @@
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)                    
             figure
-              img(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')           
+              img(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')          
+
+          div.tarjeta.color-acento-botones.p-3(x="12%" y="33.5%")            
+            p.mb-0 Evocan sensaciones de resequedad, el ánimo, algunos estadios de la excitación, movimiento y energía. 
+
+          div.tarjeta.color-acento-botones.p-3(x="12%" y="59%")            
+            p.mb-0 Se relacionan con la humedad, la calma y estadios de depresión, evocan además frescura, dinamismo y vida.
+
+          div.tarjeta.color-acento-botones.p-3(x="12%" y="77%")            
+            p.mb-0 Su percepción no genera sensación térmica y por su efecto visual posibilita utilizarse en decoraciones y vestimentas sobrias. 
 
           div(x="57%" y="8%")
             h4.mb-0.BorTit2(style="border-left: 5px solid #D5B64C") Dorado
