@@ -121,11 +121,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -215,33 +210,32 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Paletton. (2021). The color scheme designer. https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF ',
+      texto: 'Paletton. (2021). The color scheme designer.',
       tipo: 'Página web',
       link: 'https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF',
     },
     {
       texto:
-        'Powerhouse Animation Studios. (2017). PHA ProTip - Character design [video]. YouTube. https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios ',
+        'Powerhouse Animation Studios. (2017). PHA ProTip - Character design [video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios ',
     },
     {
       texto:
-        'Blendtuts-ES. (2019). Shading básico (materiales) (introducción a Blender 2.80 #31) [video]. YouTube.  https://www.youtube.com/watch?v=_HlV4DUjnDY ',
+        'Blendtuts-ES. (2019). Shading básico (materiales) (introducción a Blender 2.80 #31) [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=_HlV4DUjnDY',
     },
     {
       texto:
-        'Blendtuts-ES. (2019). HDRIs y materiales PBR (introducción a Blender 2.80 #35) [video]. YouTube.   https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452 ',
+        'Blendtuts-ES. (2019). HDRIs y materiales PBR (introducción a Blender 2.80 #35) [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452s ',
     },
     {
       texto:
-        'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.     https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender ',
+        'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender ',
     },

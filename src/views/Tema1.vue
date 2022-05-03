@@ -294,7 +294,7 @@
                 tr
                   td.text-center Anette Marnat
                   td.text-center(colspan=2 nowrap) 
-                    a(href="http://www.annettemarnat.ultra-book.com/portfolio" target="_blank") <u>www.annettemarnat.ultra-book.com/portfolio</u>
+                    a(href="https://annettemarnat.ultra-book.com/portfolio" target="_blank") <u>www.annettemarnat.ultra-book.com/portfolio</u>
                 tr
                   td.text-center Frank Frazetta
                   td.text-center(colspan=2 nowrap) 
